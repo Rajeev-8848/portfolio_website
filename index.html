@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rajeev Timilsina | Frontend Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Rajeev Timilsina — Frontend Developer & Designer specializing in building scalable, user-focused digital experiences.">
+  <meta name="theme-color" content="#05060a">
+  <meta property="og:title" content="Rajeev Timilsina | Software Developer Portfolio">
+  <meta property="og:description" content="I build scalable, user-focused digital experiences and enjoy solving challenging problems with clean, efficient technology.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/profile.jpg">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+  <header class="navbar" id="navbar">
+    <nav class="nav-container">
+      <a href="#home" class="nav-logo">Rajeev Timilsina<span class="dot">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active-link" data-section="home">Home</a></li>
+        <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+        <li><a href="#education" class="nav-link" data-section="education">Education</a></li>
+        <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+        <li><a href="CURRICULUM VITAE.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline nav-resume-btn">Resume</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="blob blob-blue"></div>
+        <div class="blob blob-purple"></div>
+        <div class="blob blob-cyan"></div>
+        <div class="dot-grid"></div>
+      </div>
+      <div class="container hero-container">
+        <div class="hero-text reveal">
+          <p class="hero-greeting">Hello, I'm</p>
+          <h1 class="hero-name">Rajeev Timilsina</h1>
+          <h2 class="hero-role">
+            <span class="role-text">Frontend Developer | Designer</span>
+          </h2>
+          <p class="hero-desc">
+            I build scalable, user-focused digital experiences and enjoy solving
+            challenging problems with clean, efficient technology.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary magnetic">
+              <span>View My Projects</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="CURRICULUM VITAE.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline magnetic">
+              <span>Download Resume</span>
+              <i class="fa-solid fa-download"></i>
+            </a>
+          </div>
+          <div class="hero-socials">
+            <a href="https://www.linkedin.com/in/rajeev-timilsina-2b1993373/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Profile">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/Rajeev-8848" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub Profile">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/razeev.irl/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram Profile">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/rajeev.timilsina.984" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="WhatsApp Contact">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+        <div class="hero-photo reveal">
+          <div class="photo-frame">
+            <div class="photo-glow"></div>
+            <img src="profilepic.jpeg" alt="Rajeev Timilsina" class="profile-img" loading="lazy">
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+        <span></span>
+      </a>
+    </section>
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-tag">About Me</p>
+          <h2 class="section-title">Get to know me</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I'm a passionate IT scholar with a strong foundation in building
+              full-stack applications, solving complex algorithmic problems, and
+              designing clean, maintainable systems. I love turning ideas into
+              functional, elegant products. 
+            </p>
+            <p>
+              Currently, I'm focused on deepening my expertise in modern frontend
+              frameworks and design tools, while continuously contributing to
+              open-source projects and building my skills through real-world practice.
+            </p>
+            <div class="about-meta">
+              <div class="meta-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Based in <strong>Bharatpur, Chitwan, Nepal</strong></span>
+              </div>
+              <div class="meta-item">
+                <i class="fa-solid fa-bullseye"></i>
+                <span>Career Objective: <strong>IT student ready for any work of my skills.</strong></span>
+              </div>
+            </div>
+          </div>
+          <div class="about-stats reveal">
+            <div class="stat-card">
+              <h3 class="stat-number" data-target="2">2</h3>
+              <p class="stat-label">Projects</p>
+            </div>
+            <div class="stat-card">
+              <h3 class="stat-number" data-target="4">4</h3>
+              <p class="stat-label">Technologies</p>
+            </div>
+            <div class="stat-card">
+              <h3 class="stat-number" data-target="1">1</h3>
+              <p class="stat-label">Years Experience</p>
+            </div>
+            <div class="stat-card">
+              <h3 class="stat-number" data-target="3">3</h3>
+              <p class="stat-label">Problems Solved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-tag">Projects</p>
+          <h2 class="section-title">Things I've built</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img src="project.png" alt="StudyMate App Design screenshot" loading="lazy">
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-body">
+              <h3>StudyMate App Design</h3>
+              <p>StudyMate is a mobile app UI/UX concept designed to help students organize their study schedules, manage assignments, track subject progress, and maintain consistent study habits.</p>
+              <p class="project-highlight"><i class="fa-solid fa-star"></i> Key Feature: Real life applicable app design by Figma.</p>
+              <div class="tech-tags">
+                <span>Figma</span>
+              </div>
+              <div class="project-links">
+                <a href="https://www.linkedin.com/posts/rajeev-timilsina-2b1993373_uiux-uidesign-uxdesign-activity-7495092562655891456-qFr-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFyECuUBQwCHtfUdcw44sX7p6EJo53n-oA8" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline magnetic">
+                  <i class="fa-brands fa-linkedin"></i> Post
+                </a>
+                <a href="https://www.figma.com/design/ujgqBvSmBA4CpXO2Pj4DXj/StudyMate-App-Design?node-id=5-3&t=Prctkcbo8cOpbRYb-1" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary magnetic">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-tag">Skills</p>
+          <h2 class="section-title">My tech stack</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-category reveal">
+            <h3><i class="fa-solid fa-code"></i> Languages</h3>
+            <div class="skill-tags">
+              <span><i class="fa-solid fa-code"></i> C++</span>
+              <span><i class="fa-brands fa-java"></i> Java</span>
+              <span><i class="fa-brands fa-python"></i> Python</span>
+              <span><i class="fa-brands fa-js"></i> JavaScript</span>
+            </div>
+          </div>
+          <div class="skill-category reveal">
+            <h3><i class="fa-solid fa-display"></i> Frontend</h3>
+            <div class="skill-tags">
+              <span><i class="fa-brands fa-html5"></i> HTML</span>
+              <span><i class="fa-brands fa-css3-alt"></i> CSS</span>
+              <span><i class="fa-brands fa-js-square"></i> JavaScript</span>
+            </div>
+          </div>
+          <div class="skill-category reveal">
+            <h3><i class="fa-solid fa-pen-nib"></i> Designing</h3>
+            <div class="skill-tags">
+              <span><i class="fa-brands fa-figma"></i> Figma</span>
+              <span><i class="fa-brands fa-adobe"></i> Photoshop</span>
+            </div>
+          </div>
+          <div class="skill-category reveal">
+            <h3><i class="fa-solid fa-toolbox"></i> Tools</h3>
+            <div class="skill-tags">
+              <span><i class="fa-brands fa-git-alt"></i> Git</span>
+              <span><i class="fa-brands fa-github"></i> GitHub</span>
+              <span><i class="fa-solid fa-code"></i> VS Code</span>
+              <span><i class="fa-brands fa-docker"></i> Docker</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="education" id="education">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-tag">Education</p>
+          <h2 class="section-title">Academic background</h2>
+        </div>
+         <div class="education-grid">
+          <div class="education-card reveal">
+            <div class="education-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="education-info">
+              <h3>BSc. CSIT (Bachelor in Science Computer Science & IT)</h3>
+              <p class="education-school">Birendra Multiple Campus, Chitwan</p>
+              <span class="education-date">2025 — Present</span>
+              <p class="education-grade">Currently Pursuing</p>
+              <div class="education-details">
+                <div>
+                  <h4>Relevant Coursework</h4>
+                  <p>Programming (C, Python), Digital Logic, Discrete Structures, Web Technology</p>
+                </div>
+                <div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="education-card reveal">
+            <div class="education-icon"><i class="fa-solid fa-school"></i></div>
+            <div class="education-info">
+              <h3>+2 Science</h3>
+              <p class="education-school">Valmiki Shiksha Sadan, Bharatpur, Chitwan</p>
+              <span class="education-date">2023 — 2025</span>
+              <p class="education-grade">Completed</p>
+              <div class="education-details">
+                <div>
+                  <h4>Relevant Coursework</h4>
+                  <p>Physics, Chemistry, Mathematics, Computer Science</p>
+                </div>
+                <div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="education-card reveal">
+            <div class="education-icon"><i class="fa-solid fa-book"></i></div>
+            <div class="education-info">
+              <h3>Secondary Education Examination (SEE)</h3>
+              <p class="education-school">Narayani Model Secondary School, Bharatpur, Chitwan</p>
+              <span class="education-date">2023</span>
+              <p class="education-grade">Completed</p>
+              <div class="education-details">
+                <div>
+                  <h4>Relevant Coursework</h4>
+                  <p>General Science, Mathematics, Computer Science, English</p>
+                </div>
+                <div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-tag">Contact</p>
+          <h2 class="section-title">Let's Build Something Together</h2>
+          <p class="section-subtitle">
+            I'm currently open to new opportunities and collaborations. Whether you
+            have a question, a role in mind, or just want to connect — my inbox is
+            always open.
+          </p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <div class="info-item">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:your.email@example.com">rajeevtimilsina111@gmail.com</a>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <h4>Location</h4>
+                <p>Bharatpur, Chitwan, Nepal</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fa-solid fa-circle-check"></i>
+              <div>
+                <h4>Availability</h4>
+                <p>Open to full-time roles & freelance work</p>
+              </div>
+            </div>
+            <div class="hero-socials contact-socials">
+              <a href="https://www.linkedin.com/in/rajeev-timilsina-2b1993373/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Profile">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/Rajeev-8848" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub Profile">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://www.instagram.com/razeev.irl/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram Profile">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/rajeev.timilsina.984" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="WhatsApp Contact">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </div>
+          </div>
+          <form
+            class="contact-form reveal"
+            id="contactForm"
+            action="https://formspree.io/f/xbgrwenj"
+            method="POST"
+            novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me more..." required></textarea>
+            </div>
+            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+            <button type="submit" class="btn btn-primary magnetic form-submit" id="formSubmitBtn">
+              <span>Send Message</span>
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+            <p class="form-status" id="formStatus" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; <span id="year"></span> Rajeev Timilsina. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/rajeev-timilsina-2b1993373/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/Rajeev-8848" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/razeev.irl/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/rajeev.timilsina.984" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Contact"><i class="fa-brands fa-facebook"></i></a>
+      </div>          <!-- closes .footer-socials -->
+    </div>            <!-- closes .container.footer-container -->
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
